@@ -19,7 +19,7 @@ def find_the_cheese(array)
   #Then look through the elements in the array and if it includes any of the cheese_types elements
   #puts the cheese_types and return array
   
-  if array.include?(cheese_types)
+  if cheese_types.include?(array)
     puts cheese_types
   else 
     return array
