@@ -20,8 +20,8 @@ def find_the_cheese(array)
   #puts the cheese_types and return array
   
   if cheese_types.include?(array)
-    puts cheese_types
+    puts array
   else 
-    return array
+    return c
   end
 end
