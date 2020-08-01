@@ -15,6 +15,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  puts cheese_types if array.map! {|string| cheese_types.include?(string)}  
+  #When calling the method it should take in an array
+  #Then look through the elements in the array and if it includes any of the cheese_types elements
+  #puts the cheese and return array
 
 end
