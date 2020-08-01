@@ -14,14 +14,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  i = 0 
   
-  #When calling the method it should take in an array
-  #Then look through the elements in the array and if it includes any of the cheese_types elements
-  #puts the cheese_types and return array
-  
-  if cheese_types.include?(array)
-    puts array
-  else 
-    return array
-  end
+  while i < cheese_types.length
+    return 
 end
